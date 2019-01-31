@@ -1,0 +1,19 @@
+version: '3'
+
+services: 
+  hapi-fhir:
+    image: jbjares/hapi_fhir:v1
+    ports:
+    - 8080:8080
+
+  cql_evaluate:
+    image: jbjares/cql_evaluate:v1
+    ports:
+    - 8082:8080
+
+#  cql-ide:
+ #   image: jbjares/cql-ide:v1
+  #  ports:
+   # - 4200:4200
+      
+      
