@@ -1,4 +1,3 @@
-
 #Docker Compose to Intall HAPI FHIR and CQL Ealuation
 
 ##If would like to use or test the FHIR Server (HAPI VerionI). So you will probably need the evaluation engine component to perform validations against the CQL syntax. Looking for that this docker-compose gives you the opportunity to quick and easy install as well as put both HAPI FHIR and the CQL Evaluation Engine to run in your own environment, using your properly resources, like data, code system, bundles, or any other type of resources.
